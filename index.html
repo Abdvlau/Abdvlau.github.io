@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scanly - School Attendance Management System</title>
-    <link href="public/styles.css" rel="stylesheet"> <!-- Ensure the path is correct -->
+    <title>Scanly - Document Scanning and OCR Technology</title>
+    <link rel="stylesheet" href="css/output.css">
 </head>
-<body class="font-sans bg-white">
+<body class="font-sans">
+
     <!-- Header -->
-    <header class="bg-blue-950 text-white p-4 fixed w-full top-0 z-10">
+    <header class="bg-gray-800 text-white p-4 fixed w-full top-0 z-10">
         <nav class="container mx-auto flex justify-between items-center">
             <div class="text-xl font-bold">
                 <a href="#">Scanly</a>
@@ -21,106 +22,112 @@
             </ul>
         </nav>
     </header>
+
     <!-- Hero Section -->
     <section id="hero" class="bg-cover bg-center h-screen flex items-center justify-center text-white" style="background-image: url('assets/images/hero-bg.jpg');">
         <div class="text-center">
             <h1 class="text-4xl md:text-6xl font-bold">Welcome to Scanly</h1>
-            <p class="mt-4 text-xl">Efficient and reliable attendance management system for your school.</p>
+            <p class="mt-4 text-xl">Transform your documents into digital format with our cutting-edge OCR technology.</p>
             <a href="#features" class="mt-6 inline-block bg-yellow-500 text-gray-800 py-2 px-4 rounded-lg hover:bg-yellow-600">Learn More</a>
         </div>
     </section>
+
     <!-- Features -->
     <section id="features" class="py-16 bg-gray-100">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 text-blue-950">Features</h2>
+            <h2 class="text-3xl font-bold mb-8">Features</h2>
             <div class="flex flex-wrap justify-center space-x-4">
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Accurate Tracking</h3>
-                        <p>Track attendance with high accuracy and reliability.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Accurate OCR</h3>
+                        <p>High accuracy in text recognition from scanned documents.</p>
                     </div>
                 </div>
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">User-Friendly Interface</h3>
-                        <p>Simple and intuitive interface for easy attendance management.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Easy to Use</h3>
+                        <p>Simple and intuitive interface for seamless document scanning.</p>
                     </div>
                 </div>
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Real-Time Reporting</h3>
-                        <p>Get real-time reports on attendance data.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Fast Processing</h3>
+                        <p>Quickly convert your documents into digital format.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- How It Works -->
     <section id="how-it-works" class="py-16">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 text-blue-950">How It Works</h2>
+            <h2 class="text-3xl font-bold mb-8">How It Works</h2>
             <div class="flex flex-wrap justify-center space-x-4">
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Step 1</h3>
-                        <p>Register your school and students.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Step 1</h3>
+                        <p>Upload your document.</p>
                     </div>
                 </div>
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Step 2</h3>
-                        <p>Students check in and out using their devices.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Step 2</h3>
+                        <p>Scanly processes the document using OCR.</p>
                     </div>
                 </div>
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Step 3</h3>
-                        <p>Monitor attendance and generate reports.</p>
-                    </div>
-                </div>
-                <!-- Additional Instructions -->
-                <div class="w-full md:w-1/3 p-4">
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Student Step</h3>
-                        <p>Register and then log in as a student to sign attendance for a particular course with date and time.</p>
-                    </div>
-                </div>
-                <div class="w-full md:w-1/3 p-4">
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-4 text-blue-900">Staff Step</h3>
-                        <p>Register and log in as staff to see the number of students that signed attendance for a particular course. Also, retrieve attendance using the filter function for filtering by date and time.</p>
+                        <h3 class="text-2xl font-semibold mb-4">Step 3</h3>
+                        <p>Download your digital document.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- About Us -->
     <section id="about-us" class="py-16 bg-gray-100">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 text-blue-950">About Us</h2>
-            <p class="mb-8">We are a dedicated team passionate about improving school attendance management processes. Our mission is to provide an efficient and reliable solution for schools to track and manage attendance seamlessly.</p>
+            <h2 class="text-3xl font-bold mb-8">About Us</h2>
+            <p class="mb-8">We are a team dedicated to making document scanning easy and efficient. Our mission is to provide high-quality OCR technology to help you digitize your documents with ease.</p>
             <div class="flex flex-wrap justify-center space-x-4">
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-2 text-blue-900">Abdulrahman Abdullahi</h3>
+                        <h3 class="text-2xl font-semibold mb-2">Abdulrahman Abdullahi</h3>
                         <p>Co-founder & Developer</p>
                     </div>
                 </div>
                 <div class="w-full md:w-1/3 p-4">
                     <div class="bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-2xl font-semibold mb-2 text-blue-900">Mahmud Affa</h3>
+                        <h3 class="text-2xl font-semibold mb-2">Mahmud Affa</h3>
                         <p>Co-founder & Developer</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Contact Us -->
     <section id="contact-us" class="py-16">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8 text-blue-950">Contact Us</h2>
+            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
             <form action="path/to/your/form/handler" method="POST" class="max-w-lg mx-auto">
                 <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 mb-4 border border-gray-300 rounded">
                 <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 mb-4 border border-gray-300 rounded">
-                <textarea name="message" placeholder="Your Message" required class="w-full p-2"></textarea>
-                <button type="submit" class="mt-4 bg-blue-950 text-white py-2 px
+                <textarea name="message" placeholder="Your Message" required class="w-full p-2 mb-4 border border-gray-300 rounded"></textarea>
+                <button type="submit" class="w-full bg-gray-800 text-white p-2 rounded">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <div class="container mx-auto">
+            <p>&copy; 2024 Scanly. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
