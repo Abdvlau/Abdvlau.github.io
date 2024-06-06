@@ -1,4 +1,13 @@
 {
+  "name": "scanly",
+  "version": "1.0.0",
+  "description": "School Attendance Management System",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "Abdulrahman Abdullahi",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
