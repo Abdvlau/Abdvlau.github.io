@@ -1,12 +1,16 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.js'], // adjust according to your project structure
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './public/**/*.html',
+    './src/**/*.{html,js,jsx,ts,tsx,vue}'
+  ],
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    extend: {
+      colors: {
+        'blue-950': '#1E3A8A',
+        'blue-900': '#1D4ED8',
+      },
+    },
   },
   plugins: [],
 }
